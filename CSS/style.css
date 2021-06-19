@@ -1,0 +1,180 @@
+
+ /* font-family: 'Roboto', sans-serif; */
+body
+{
+font-family: 'Montserrat', sans-serif;   
+}
+
+/* navigation bar */
+
+
+.navbar{
+    background-color: #ff4c68;
+    padding:2rem 2rem;
+}
+
+.navbar-brand{
+    color:#fff;
+    font-weight:bold ;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color:#fff;
+}
+
+
+/* Home Section */
+
+#Home{
+    background-color:#ff4c68;
+}
+
+.Heading{
+    color:#fff;
+    font-size:4rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding:2rem 4rem;
+    text-align:left;
+
+}
+
+.Heading-para{
+    color:#fff;
+    font-size:1.5rem;
+    text-align: left;
+    padding:0 4rem 4rem 4rem;
+    font-family:serif;
+    
+}
+
+.Header-Image{
+    padding:4rem;
+}
+
+@media (max-width:992px)
+{
+    .Header-Image{
+        padding:0rem;
+        
+    }
+    .carousel-item-home{
+        padding-right: 1rem;
+    } 
+}
+
+
+
+
+#Features{
+    margin:2rem 0 2rem 0;
+}
+.feature-icon{
+    font-size: 4rem;
+    color:#ff4c68;
+}
+
+.Feature-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+}
+
+.Feature-box{
+    text-align: center;
+    padding:3rem 4rem 1.5rem 4rem;
+}
+
+/* Testimonial */
+
+
+#testimonials{
+    background-color: #ff4c68;
+    
+    color:#fff;
+    text-align: center;
+}
+.testimonial-image{
+   opacity:0.8;
+}
+.testimonial-image:hover{
+   opacity:1.0;
+}
+
+.testimonial-heading{
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+   
+
+}
+
+ .testimonial-para{
+    color:#fff;
+    text-align: center;
+   
+
+}
+
+.carousel-each-item{
+    padding:2rem 6rem; 
+}
+
+
+/* About-US */
+
+
+#AboutUs{
+    text-align: center;
+    padding:2rem;
+
+}
+.About-box{
+    padding:2rem;
+}
+
+.About-heading{
+    font-weight: bold;
+}
+
+.About-para{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Contact-Us */
+
+
+#contactus{
+    padding:2rem;
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+    
+}
+
+.contact-heading{
+    text-align:center;
+    font-family: Montserrat-Black;
+    margin-bottom: 3rem;;
+}
+
+
+
+.contact-icon{
+    color:#000;
+    margin-right:1rem;
+}
+
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    padding:2rem;
+    font-family: Montserrat-Black;
+}
+
+
+
+
